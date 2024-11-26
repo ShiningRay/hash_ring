@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["your.email@example.com"]
 
   spec.summary       = %q{A flexible consistent hashing implementation in Ruby}
-  spec.description   = %q{A Ruby implementation of consistent hashing with support for custom hash functions and configurable virtual nodes}
+  spec.description   = %q{A Ruby implementation of consistent hashing with support for custom hash functions and configurable virtual nodes. Features include customizable hash functions, configurable virtual node counts, and dynamic node management.}
   spec.homepage      = "https://github.com/yourusername/hash_ring"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
@@ -22,4 +22,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "yard", "~> 0.9"
 end
